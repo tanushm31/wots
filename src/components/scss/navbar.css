@@ -1,0 +1,51 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 8vh;
+  background-color: #fffdeb;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.logo {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2.1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 50%;
+}
+
+.menu a {
+  font-family: 'Roboto', sans-serif;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.menu a:hover {
+  color: #5de9d2;
+  cursor: pointer;
+}
+/*# sourceMappingURL=navbar.css.map */
