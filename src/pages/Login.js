@@ -9,12 +9,17 @@ export default function LoginPage() {
   return (
     <div className='holder'>
         <Navbar/>
+        
         <div className='infopanel'>
+
+            <div className='infoCol' id="loginHeading">
+                <b>Enter Details to Login</b>
+            </div>
             <div className='infoCol'>
                 <div className='infoLabel'>
                     Aadhar No:
                 </div>
-                <input className='infoInput'>
+                <input className='infoInput' type="text">
                     
                 </input>
                 
@@ -29,13 +34,13 @@ export default function LoginPage() {
                 
             </div>
             <div className='infoCol'>
-                <button>
+                <button className='loginButton'>
                     Log In
                 </button>
                 
             </div>
             <div className='infoCol' id='signuptext'>
-            <p>Don't Have an account? <a><u> Sign Up</u></a> right now</p>
+            <p>Don't Have an account? <a href='/signup'><u> Sign Up</u></a> right now</p>
             </div>
 
 

@@ -1,0 +1,101 @@
+.infoPanel {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 90vh;
+    
+    // background-color: aqua;
+}
+.signupHeader{
+    padding-top:4% ;
+    // padding-bottom: 1%;
+
+    height: 2.5em;
+    
+    // background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+
+    font-family: 'Roboto Mono', monospace;
+}
+.signUpForm
+{
+    // border: 5px solid black;
+    // background-color: blueviolet;
+    width: 80%;
+    height: 80%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+}
+.infoRow{
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    height: 3em;
+    
+    // background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infoCol{
+    width: 40%;
+    height: 100%;
+    // border: 2x solid rgb(99, 82, 82);
+    // background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.infoCol label{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    // background-color: chartreuse;
+}
+.infoCol input{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    // background-color: rgb(36, 32, 75);
+}
+// .signUpForm td{
+//     border: 2px solid black;
+//     text-align: center;
+// }
+#signUpButton{
+    padding-top: 5%;
+}
+.signupButton{
+    // padding-top: 1em;
+    width: 15%;
+    height: 100%;
+    font-size: 1.5em;
+
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border: 2px solid rgb(48, 48, 48);
+
+}
+#logintext{
+    height: 8%; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}

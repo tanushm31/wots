@@ -16,6 +16,7 @@ import {
 import HomePage from './pages/HomePage.js'
 import DashboardPage from './pages/DashboardPage.js'
 import Login from './pages/Login.js';
+import Signup from './pages/Signup';
 function App() {
   return (
     
@@ -26,7 +27,8 @@ function App() {
         <Routes>
           <Route exact path='/' element={< HomePage />}></Route>
           <Route exact path='/dashboard' element={< DashboardPage />}></Route>
-          <Route exact path='/login-signup' element={< Login />}></Route>
+          <Route exact path='/login' element={< Login />}></Route>
+          <Route exact path='/signup' element={< Signup />}></Route>
         </Routes>
       
       </Router> 
