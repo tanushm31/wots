@@ -1,0 +1,54 @@
+.infopanel{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+    // background-color: aqua;
+}
+.infoCol{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 10%;
+    width: 80%;
+    // background-color: rgb(37, 177, 72);
+    font-family: 'Roboto Mono', monospace;
+    
+    // font-family: 'Roboto',monospace;
+}
+.infoLabel{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    // background-color: rgb(178, 129, 224);
+    font-size: 1em;
+    text-align: center;
+    border: 2px solid rgb(48, 48, 48);
+
+}
+.infoInput{
+    height: 90%;
+    border: 2px solid rgb(48, 48, 48);
+    width: 40%;
+    // background-color: rgb(170, 93, 22);
+
+}
+.infoCol button{
+    width: 25%;
+    font-size: 1.5em;
+
+    font-family: 'Roboto Mono', monospace;
+
+}
+#signuptext{
+    height: 8%; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}

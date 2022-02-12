@@ -1,11 +1,7 @@
-.holder{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-}
+
 .loginButtondiv{
-    width:100vw;
-    height: 40vh;
+    width:90vw;
+    height: 10vh;
 
     display: flex;
     align-items: center;
@@ -24,4 +20,31 @@
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.5em;
+}
+.about{
+    width:90vw;
+    height: 40vh;
+    // background-color: aqua;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.heading{
+    height: 25%;
+    width: 30%;
+    font-size: 3em;
+    display: flex;
+    font-family: "Roboto Mono",monospace;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    // background-color: cadetblue;
+}
+.paragraph{
+    font-family: "Roboto Mono",monospace;
+
+    // background-color: chocolate;
 }
