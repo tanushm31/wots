@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import "./scss/dashboard.css"
 import ProfilePhoto from '../assets/profimg.jpg'
-export default class dashboard extends Component {
+export default class Dashboard extends Component {
   render() {
     return (
       <div className='dashboard'>

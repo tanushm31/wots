@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EACD,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,gBAAgB,EAAE,UAAU;CAC/B;;AACD,AAAA,KAAK,CAAC,MAAM,CAAA;EACR,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "readdata.scss"
+    ],
+    "names": [],
+    "file": "readdata.css"
+}

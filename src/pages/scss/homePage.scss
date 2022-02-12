@@ -1,0 +1,27 @@
+.holder{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.loginButtondiv{
+    width:100vw;
+    height: 40vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // background-color: rgb(56, 136, 136);
+}
+.loginButton{
+    background-color: #FFF;
+    border: 2px solid #000000;
+    height: 5vh;
+    cursor: pointer;
+    padding-left:0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+}

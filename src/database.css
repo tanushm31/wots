@@ -1,0 +1,35 @@
+.form{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+.form-elem{
+    height: 10vh;
+    padding: 1%;
+    margin: 1%;
+    display:flex ;
+    /* background-color: aqua; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.form-elem > *{
+    /* margin-bottom: 100px; */
+    /* padding-top: 5vh; */
+    /* padding-bottom: 5vh; */
+    /* padding-right:5vw; */
+    width: 20vw;
+    height: 8vh;
+    text-align: center;
+
+}
+.form-elem button {
+
+    /* align-items: center; */
+    height: 4em;
+    cursor: pointer;
+    border: 2px solid black;
+}

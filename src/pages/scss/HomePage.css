@@ -1,0 +1,40 @@
+.holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.loginButtondiv {
+  width: 100vw;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.loginButton {
+  background-color: #FFF;
+  border: 2px solid #000000;
+  height: 5vh;
+  cursor: pointer;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=HomePage.css.map */
